@@ -1,14 +1,20 @@
 import React from 'react'
-import Header from './components/Header'
-import Blog from './components/Blog'
-import Footer from './components/Footer';
+import { Routes, Route } from 'react-router-dom';
+import Layout from './Layout';
+import Home from './pages/Home';
+import Login from './pages/Login';
+import Register from './components/Register';
 
 function App() {
   return (
     <main className='min-h-screen'>
-      <Header />
-      <Blog />
-      <Footer/>
+      <Routes>
+        <Route path='/' element={<Layout />}>
+          <Route index element={<Home />} />
+          <Route path='login' element={<Login />} />
+          <Route path='register' element={<Register />} />
+        </Route>
+      </Routes>
     </main>
   );
 }

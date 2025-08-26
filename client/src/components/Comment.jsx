@@ -2,8 +2,8 @@ import React from 'react'
 
 function Comment() {
   return (
-    <div>
-      <div>
+    <div class="pt-8 pb-16 lg:pt-16 lg:pb-24 bg-white dark:bg-gray-900 antialiased">
+      <div class="flex justify-between px-4 mx-auto max-w-screen-xl ">
         <section class="not-format">
           <div class="flex justify-between items-center mb-6">
             <h2 class="text-lg lg:text-2xl font-bold text-gray-900 dark:text-white">
