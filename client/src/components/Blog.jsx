@@ -4,14 +4,14 @@ import RelatedBlog from "./RelatedBlog";
 function Blog() {
   return (
     <div>
-      <main class="pt-8 pb-16 lg:pt-16 lg:pb-24 bg-white dark:bg-gray-900 antialiased">
-        <div class="flex justify-between px-4 mx-auto max-w-screen-xl ">
-          <article class="mx-auto w-full max-w-2xl format format-sm sm:format-base lg:format-lg format-blue dark:format-invert">
-            <header class="mb-4 lg:mb-6 not-format">
-              <address class="flex items-center mb-6 not-italic">
-                <div class="inline-flex items-center mr-3 text-sm text-gray-900 dark:text-white">
+      <main className="pt-8 pb-16 lg:pt-16 lg:pb-24 bg-white dark:bg-gray-900 antialiased">
+        <div className="flex justify-between px-4 mx-auto max-w-screen-xl ">
+          <article className="mx-auto w-full max-w-2xl format format-sm sm:format-base lg:format-lg format-blue dark:format-invert">
+            <header className="mb-4 lg:mb-6 not-format">
+              <address className="flex items-center mb-6 not-italic">
+                <div className="inline-flex items-center mr-3 text-sm text-gray-900 dark:text-white">
                   <img
-                    class="mr-4 w-16 h-16 rounded-full"
+                    className="mr-4 w-16 h-16 rounded-full"
                     src="https://flowbite.com/docs/images/people/profile-picture-2.jpg"
                     alt="Jese Leos"
                   />
@@ -19,14 +19,14 @@ function Blog() {
                     <a
                       href="#"
                       rel="author"
-                      class="text-xl font-bold text-gray-900 dark:text-white"
+                      className="text-xl font-bold text-gray-900 dark:text-white"
                     >
                       Jese Leos
                     </a>
-                    <p class="text-base text-gray-500 dark:text-gray-400">
+                    <p className="text-base text-gray-500 dark:text-gray-400">
                       Graphic Designer, educator & CEO Flowbite
                     </p>
-                    <p class="text-base text-gray-500 dark:text-gray-400">
+                    <p className="text-base text-gray-500 dark:text-gray-400">
                       <time
                         pubdate
                         datetime="2022-02-08"
@@ -38,13 +38,13 @@ function Blog() {
                   </div>
                 </div>
               </address>
-              <h1 class="mb-4 text-3xl font-extrabold leading-tight text-gray-900 lg:mb-6 lg:text-4xl dark:text-white">
+              <h1 className="mb-4 text-3xl font-extrabold leading-tight text-gray-900 lg:mb-6 lg:text-4xl dark:text-white">
                 Best practices for successful prototypes
               </h1>
             </header>
-            <p class="lead">
+            <p className="lead">
               Flowbite is an open-source library of UI components built with the
-              utility-first classes from Tailwind CSS. It also includes
+              utility-first classNamees from Tailwind CSS. It also includes
               interactive elements such as dropdowns, modals, datepickers.
             </p>
             <p>
@@ -59,7 +59,7 @@ function Blog() {
               </a>
               . It comes with the most commonly used UI components, such as
               buttons, navigation bars, cards, form elements, and more which are
-              conveniently built with the utility classes from Tailwind CSS.
+              conveniently built with the utility classNamees from Tailwind CSS.
             </p>
             <figure>
               <img
@@ -159,12 +159,12 @@ function Blog() {
               unique, certain shapes are shared across letters. A typeface
               represents shared patterns across a collection of letters.
             </p>
-            <h3>Type classification</h3>
+            <h3>Type classNameification</h3>
             <h4>Serif</h4>
             <p>
               A serif is a small shape or projection that appears at the
               beginning or end of a stroke on a letter. Typefaces with serifs
-              are called serif typefaces. Serif fonts are classified as one of
+              are called serif typefaces. Serif fonts are classNameified as one of
               the following:
             </p>
             <h4>Old-Style serifs</h4>
@@ -198,24 +198,24 @@ function Blog() {
             <p>
               A serif is a small shape or projection that appears at the
               beginning or end of a stroke on a letter. Typefaces with serifs
-              are called serif typefaces. Serif fonts are classified as one of
+              are called serif typefaces. Serif fonts are classNameified as one of
               the following:
             </p>
             <pre>
-              <code class="language-html">
-                &lt;dl class="grid grid-cols-2 gap-8 max-w-screen-md
+              <code className="language-html">
+                &lt;dl className="grid grid-cols-2 gap-8 max-w-screen-md
                 text-gray-900 sm:grid-cols-3 dark:text-white"&gt; &lt;div
-                class="flex flex-col justify-center items-center"&gt; &lt;dt
-                class="mb-2 text-3xl font-extrabold"&gt;73M+&lt;/dt&gt; &lt;dd
-                class="text-lg font-normal text-gray-500
+                className="flex flex-col justify-center items-center"&gt; &lt;dt
+                className="mb-2 text-3xl font-extrabold"&gt;73M+&lt;/dt&gt; &lt;dd
+                className="text-lg font-normal text-gray-500
                 dark:text-gray-400"&gt;developers&lt;/dd&gt; &lt;/div&gt;
-                &lt;div class="flex flex-col justify-center items-center"&gt;
-                &lt;dt class="mb-2 text-3xl font-extrabold"&gt;1B+&lt;/dt&gt;
-                &lt;dd class="text-lg font-normal text-gray-500
+                &lt;div className="flex flex-col justify-center items-center"&gt;
+                &lt;dt className="mb-2 text-3xl font-extrabold"&gt;1B+&lt;/dt&gt;
+                &lt;dd className="text-lg font-normal text-gray-500
                 dark:text-gray-400"&gt;contributors&lt;/dd&gt; &lt;/div&gt;
-                &lt;div class="flex flex-col justify-center items-center"&gt;
-                &lt;dt class="mb-2 text-3xl font-extrabold"&gt;4M+&lt;/dt&gt;
-                &lt;dd class="text-lg font-normal text-gray-500
+                &lt;div className="flex flex-col justify-center items-center"&gt;
+                &lt;dt className="mb-2 text-3xl font-extrabold"&gt;4M+&lt;/dt&gt;
+                &lt;dd className="text-lg font-normal text-gray-500
                 dark:text-gray-400"&gt;organizations&lt;/dd&gt; &lt;/div&gt;
                 &lt;/dl&gt;
               </code>
@@ -313,44 +313,44 @@ function Blog() {
 
 
             
-            <section class="not-format">
-              <div class="flex justify-between items-center mb-6">
-                <h2 class="text-lg lg:text-2xl font-bold text-gray-900 dark:text-white">
+            <section className="not-format">
+              <div className="flex justify-between items-center mb-6">
+                <h2 className="text-lg lg:text-2xl font-bold text-gray-900 dark:text-white">
                   Discussion (20)
                 </h2>
               </div>
-              <form class="mb-6">
-                <div class="py-2 px-4 mb-4 bg-white rounded-lg rounded-t-lg border border-gray-200 dark:bg-gray-800 dark:border-gray-700">
-                  <label for="comment" class="sr-only">
+              <form className="mb-6">
+                <div className="py-2 px-4 mb-4 bg-white rounded-lg rounded-t-lg border border-gray-200 dark:bg-gray-800 dark:border-gray-700">
+                  <label for="comment" className="sr-only">
                     Your comment
                   </label>
                   <textarea
                     id="comment"
                     rows="6"
-                    class="px-0 w-full text-sm text-gray-900 border-0 focus:ring-0 dark:text-white dark:placeholder-gray-400 dark:bg-gray-800"
+                    className="px-0 w-full text-sm text-gray-900 border-0 focus:ring-0 dark:text-white dark:placeholder-gray-400 dark:bg-gray-800"
                     placeholder="Write a comment..."
                     required
                   ></textarea>
                 </div>
                 <button
                   type="submit"
-                  class="inline-flex items-center py-2.5 px-4 text-xs font-medium text-center text-white bg-primary-700 rounded-lg focus:ring-4 focus:ring-primary-200 dark:focus:ring-primary-900 hover:bg-primary-800"
+                  className="inline-flex items-center py-2.5 px-4 text-xs font-medium text-center text-white bg-primary-700 rounded-lg focus:ring-4 focus:ring-primary-200 dark:focus:ring-primary-900 hover:bg-primary-800"
                 >
                   Post comment
                 </button>
               </form>
-              <article class="p-6 mb-6 text-base bg-white rounded-lg dark:bg-gray-900">
-                <footer class="flex justify-between items-center mb-2">
-                  <div class="flex items-center">
-                    <p class="inline-flex items-center mr-3 font-semibold text-sm text-gray-900 dark:text-white">
+              <article className="p-6 mb-6 text-base bg-white rounded-lg dark:bg-gray-900">
+                <footer className="flex justify-between items-center mb-2">
+                  <div className="flex items-center">
+                    <p className="inline-flex items-center mr-3 font-semibold text-sm text-gray-900 dark:text-white">
                       <img
-                        class="mr-2 w-6 h-6 rounded-full"
+                        className="mr-2 w-6 h-6 rounded-full"
                         src="https://flowbite.com/docs/images/people/profile-picture-2.jpg"
                         alt="Michael Gough"
                       />
                       Michael Gough
                     </p>
-                    <p class="text-sm text-gray-600 dark:text-gray-400">
+                    <p className="text-sm text-gray-600 dark:text-gray-400">
                       <time
                         pubdate
                         datetime="2022-02-08"
@@ -363,11 +363,11 @@ function Blog() {
                   <button
                     id="dropdownComment1Button"
                     data-dropdown-toggle="dropdownComment1"
-                    class="inline-flex items-center p-2 text-sm font-medium text-center text-gray-500 bg-white rounded-lg hover:bg-gray-100 focus:ring-4 focus:outline-none focus:ring-gray-50 dark:text-gray-400 dark:bg-gray-900 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+                    className="inline-flex items-center p-2 text-sm font-medium text-center text-gray-500 bg-white rounded-lg hover:bg-gray-100 focus:ring-4 focus:outline-none focus:ring-gray-50 dark:text-gray-400 dark:bg-gray-900 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
                     type="button"
                   >
                     <svg
-                      class="w-4 h-4"
+                      className="w-4 h-4"
                       aria-hidden="true"
                       xmlns="http://www.w3.org/2000/svg"
                       fill="currentColor"
@@ -375,21 +375,21 @@ function Blog() {
                     >
                       <path d="M2 0a1.5 1.5 0 1 1 0 3 1.5 1.5 0 0 1 0-3Zm6.041 0a1.5 1.5 0 1 1 0 3 1.5 1.5 0 0 1 0-3ZM14 0a1.5 1.5 0 1 1 0 3 1.5 1.5 0 0 1 0-3Z" />
                     </svg>
-                    <span class="sr-only">Comment settings</span>
+                    <span className="sr-only">Comment settings</span>
                   </button>
                   {/* <!-- Dropdown menu --> */}
                   <div
                     id="dropdownComment1"
-                    class="hidden z-10 w-36 bg-white rounded divide-y divide-gray-100 shadow dark:bg-gray-700 dark:divide-gray-600"
+                    className="hidden z-10 w-36 bg-white rounded divide-y divide-gray-100 shadow dark:bg-gray-700 dark:divide-gray-600"
                   >
                     <ul
-                      class="py-1 text-sm text-gray-700 dark:text-gray-200"
+                      className="py-1 text-sm text-gray-700 dark:text-gray-200"
                       aria-labelledby="dropdownMenuIconHorizontalButton"
                     >
                       <li>
                         <a
                           href="#"
-                          class="block py-2 px-4 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
+                          className="block py-2 px-4 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
                         >
                           Edit
                         </a>
@@ -397,7 +397,7 @@ function Blog() {
                       <li>
                         <a
                           href="#"
-                          class="block py-2 px-4 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
+                          className="block py-2 px-4 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
                         >
                           Remove
                         </a>
@@ -405,7 +405,7 @@ function Blog() {
                       <li>
                         <a
                           href="#"
-                          class="block py-2 px-4 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
+                          className="block py-2 px-4 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
                         >
                           Report
                         </a>
@@ -419,13 +419,13 @@ function Blog() {
                   designers. The knowledge of the design tools are as important
                   as the creation of the design strategy.
                 </p>
-                <div class="flex items-center mt-4 space-x-4">
+                <div className="flex items-center mt-4 space-x-4">
                   <button
                     type="button"
-                    class="flex items-center font-medium text-sm text-gray-500 hover:underline dark:text-gray-400"
+                    className="flex items-center font-medium text-sm text-gray-500 hover:underline dark:text-gray-400"
                   >
                     <svg
-                      class="mr-1.5 w-3 h-3"
+                      className="mr-1.5 w-3 h-3"
                       aria-hidden="true"
                       xmlns="http://www.w3.org/2000/svg"
                       fill="currentColor"
@@ -437,18 +437,18 @@ function Blog() {
                   </button>
                 </div>
               </article>
-              <article class="p-6 mb-6 ml-6 lg:ml-12 text-base bg-white rounded-lg dark:bg-gray-900">
-                <footer class="flex justify-between items-center mb-2">
-                  <div class="flex items-center">
-                    <p class="inline-flex items-center mr-3 font-semibold text-sm text-gray-900 dark:text-white">
+              <article className="p-6 mb-6 ml-6 lg:ml-12 text-base bg-white rounded-lg dark:bg-gray-900">
+                <footer className="flex justify-between items-center mb-2">
+                  <div className="flex items-center">
+                    <p className="inline-flex items-center mr-3 font-semibold text-sm text-gray-900 dark:text-white">
                       <img
-                        class="mr-2 w-6 h-6 rounded-full"
+                        className="mr-2 w-6 h-6 rounded-full"
                         src="https://flowbite.com/docs/images/people/profile-picture-5.jpg"
                         alt="Jese Leos"
                       />
                       Jese Leos
                     </p>
-                    <p class="text-sm text-gray-600 dark:text-gray-400">
+                    <p className="text-sm text-gray-600 dark:text-gray-400">
                       <time
                         pubdate
                         datetime="2022-02-12"
@@ -461,11 +461,11 @@ function Blog() {
                   <button
                     id="dropdownComment2Button"
                     data-dropdown-toggle="dropdownComment2"
-                    class="inline-flex items-center p-2 text-sm font-medium text-center text-gray-500 bg-white rounded-lg hover:bg-gray-100 focus:ring-4 focus:outline-none focus:ring-gray-50 dark:text-gray-400 dark:bg-gray-900 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+                    className="inline-flex items-center p-2 text-sm font-medium text-center text-gray-500 bg-white rounded-lg hover:bg-gray-100 focus:ring-4 focus:outline-none focus:ring-gray-50 dark:text-gray-400 dark:bg-gray-900 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
                     type="button"
                   >
                     <svg
-                      class="w-4 h-4"
+                      className="w-4 h-4"
                       aria-hidden="true"
                       xmlns="http://www.w3.org/2000/svg"
                       fill="currentColor"
@@ -473,21 +473,21 @@ function Blog() {
                     >
                       <path d="M2 0a1.5 1.5 0 1 1 0 3 1.5 1.5 0 0 1 0-3Zm6.041 0a1.5 1.5 0 1 1 0 3 1.5 1.5 0 0 1 0-3ZM14 0a1.5 1.5 0 1 1 0 3 1.5 1.5 0 0 1 0-3Z" />
                     </svg>
-                    <span class="sr-only">Comment settings</span>
+                    <span className="sr-only">Comment settings</span>
                   </button>
                   {/* <!-- Dropdown menu --> */}
                   <div
                     id="dropdownComment2"
-                    class="hidden z-10 w-36 bg-white rounded divide-y divide-gray-100 shadow dark:bg-gray-700 dark:divide-gray-600"
+                    className="hidden z-10 w-36 bg-white rounded divide-y divide-gray-100 shadow dark:bg-gray-700 dark:divide-gray-600"
                   >
                     <ul
-                      class="py-1 text-sm text-gray-700 dark:text-gray-200"
+                      className="py-1 text-sm text-gray-700 dark:text-gray-200"
                       aria-labelledby="dropdownMenuIconHorizontalButton"
                     >
                       <li>
                         <a
                           href="#"
-                          class="block py-2 px-4 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
+                          className="block py-2 px-4 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
                         >
                           Edit
                         </a>
@@ -495,7 +495,7 @@ function Blog() {
                       <li>
                         <a
                           href="#"
-                          class="block py-2 px-4 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
+                          className="block py-2 px-4 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
                         >
                           Remove
                         </a>
@@ -503,7 +503,7 @@ function Blog() {
                       <li>
                         <a
                           href="#"
-                          class="block py-2 px-4 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
+                          className="block py-2 px-4 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
                         >
                           Report
                         </a>
@@ -512,13 +512,13 @@ function Blog() {
                   </div>
                 </footer>
                 <p>Much appreciated! Glad you liked it ☺️</p>
-                <div class="flex items-center mt-4 space-x-4">
+                <div className="flex items-center mt-4 space-x-4">
                   <button
                     type="button"
-                    class="flex items-center font-medium text-sm text-gray-500 hover:underline dark:text-gray-400"
+                    className="flex items-center font-medium text-sm text-gray-500 hover:underline dark:text-gray-400"
                   >
                     <svg
-                      class="mr-1.5 w-3 h-3"
+                      className="mr-1.5 w-3 h-3"
                       aria-hidden="true"
                       xmlns="http://www.w3.org/2000/svg"
                       fill="currentColor"
@@ -530,18 +530,18 @@ function Blog() {
                   </button>
                 </div>
               </article>
-              <article class="p-6 mb-6 text-base bg-white border-t border-gray-200 dark:border-gray-700 dark:bg-gray-900">
-                <footer class="flex justify-between items-center mb-2">
-                  <div class="flex items-center">
-                    <p class="inline-flex items-center mr-3 font-semibold text-sm text-gray-900 dark:text-white">
+              <article className="p-6 mb-6 text-base bg-white border-t border-gray-200 dark:border-gray-700 dark:bg-gray-900">
+                <footer className="flex justify-between items-center mb-2">
+                  <div className="flex items-center">
+                    <p className="inline-flex items-center mr-3 font-semibold text-sm text-gray-900 dark:text-white">
                       <img
-                        class="mr-2 w-6 h-6 rounded-full"
+                        className="mr-2 w-6 h-6 rounded-full"
                         src="https://flowbite.com/docs/images/people/profile-picture-3.jpg"
                         alt="Bonnie Green"
                       />
                       Bonnie Green
                     </p>
-                    <p class="text-sm text-gray-600 dark:text-gray-400">
+                    <p className="text-sm text-gray-600 dark:text-gray-400">
                       <time
                         pubdate
                         datetime="2022-03-12"
@@ -554,11 +554,11 @@ function Blog() {
                   <button
                     id="dropdownComment3Button"
                     data-dropdown-toggle="dropdownComment3"
-                    class="inline-flex items-center p-2 text-sm font-medium text-center text-gray-500 bg-white rounded-lg hover:bg-gray-100 focus:ring-4 focus:outline-none focus:ring-gray-50 dark:text-gray-400 dark:bg-gray-900 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+                    className="inline-flex items-center p-2 text-sm font-medium text-center text-gray-500 bg-white rounded-lg hover:bg-gray-100 focus:ring-4 focus:outline-none focus:ring-gray-50 dark:text-gray-400 dark:bg-gray-900 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
                     type="button"
                   >
                     <svg
-                      class="w-4 h-4"
+                      className="w-4 h-4"
                       aria-hidden="true"
                       xmlns="http://www.w3.org/2000/svg"
                       fill="currentColor"
@@ -566,21 +566,21 @@ function Blog() {
                     >
                       <path d="M2 0a1.5 1.5 0 1 1 0 3 1.5 1.5 0 0 1 0-3Zm6.041 0a1.5 1.5 0 1 1 0 3 1.5 1.5 0 0 1 0-3ZM14 0a1.5 1.5 0 1 1 0 3 1.5 1.5 0 0 1 0-3Z" />
                     </svg>
-                    <span class="sr-only">Comment settings</span>
+                    <span className="sr-only">Comment settings</span>
                   </button>
                   {/* <!-- Dropdown menu --> */}
                   <div
                     id="dropdownComment3"
-                    class="hidden z-10 w-36 bg-white rounded divide-y divide-gray-100 shadow dark:bg-gray-700 dark:divide-gray-600"
+                    className="hidden z-10 w-36 bg-white rounded divide-y divide-gray-100 shadow dark:bg-gray-700 dark:divide-gray-600"
                   >
                     <ul
-                      class="py-1 text-sm text-gray-700 dark:text-gray-200"
+                      className="py-1 text-sm text-gray-700 dark:text-gray-200"
                       aria-labelledby="dropdownMenuIconHorizontalButton"
                     >
                       <li>
                         <a
                           href="#"
-                          class="block py-2 px-4 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
+                          className="block py-2 px-4 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
                         >
                           Edit
                         </a>
@@ -588,7 +588,7 @@ function Blog() {
                       <li>
                         <a
                           href="#"
-                          class="block py-2 px-4 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
+                          className="block py-2 px-4 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
                         >
                           Remove
                         </a>
@@ -596,7 +596,7 @@ function Blog() {
                       <li>
                         <a
                           href="#"
-                          class="block py-2 px-4 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
+                          className="block py-2 px-4 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
                         >
                           Report
                         </a>
@@ -609,13 +609,13 @@ function Blog() {
                   stages the UX designer should consider while creating the
                   design strategy.
                 </p>
-                <div class="flex items-center mt-4 space-x-4">
+                <div className="flex items-center mt-4 space-x-4">
                   <button
                     type="button"
-                    class="flex items-center font-medium text-sm text-gray-500 hover:underline dark:text-gray-400"
+                    className="flex items-center font-medium text-sm text-gray-500 hover:underline dark:text-gray-400"
                   >
                     <svg
-                      class="mr-1.5 w-3 h-3"
+                      className="mr-1.5 w-3 h-3"
                       aria-hidden="true"
                       xmlns="http://www.w3.org/2000/svg"
                       fill="currentColor"
@@ -627,18 +627,18 @@ function Blog() {
                   </button>
                 </div>
               </article>
-              <article class="p-6 text-base bg-white border-t border-gray-200 dark:border-gray-700 dark:bg-gray-900">
-                <footer class="flex justify-between items-center mb-2">
-                  <div class="flex items-center">
-                    <p class="inline-flex items-center mr-3 font-semibold text-sm text-gray-900 dark:text-white">
+              <article className="p-6 text-base bg-white border-t border-gray-200 dark:border-gray-700 dark:bg-gray-900">
+                <footer className="flex justify-between items-center mb-2">
+                  <div className="flex items-center">
+                    <p className="inline-flex items-center mr-3 font-semibold text-sm text-gray-900 dark:text-white">
                       <img
-                        class="mr-2 w-6 h-6 rounded-full"
+                        className="mr-2 w-6 h-6 rounded-full"
                         src="https://flowbite.com/docs/images/people/profile-picture-4.jpg"
                         alt="Helene Engels"
                       />
                       Helene Engels
                     </p>
-                    <p class="text-sm text-gray-600 dark:text-gray-400">
+                    <p className="text-sm text-gray-600 dark:text-gray-400">
                       <time
                         pubdate
                         datetime="2022-06-23"
@@ -651,11 +651,11 @@ function Blog() {
                   <button
                     id="dropdownComment4Button"
                     data-dropdown-toggle="dropdownComment4"
-                    class="inline-flex items-center p-2 text-sm font-medium text-center text-gray-500 bg-white rounded-lg hover:bg-gray-100 focus:ring-4 focus:outline-none focus:ring-gray-50 dark:text-gray-400 dark:bg-gray-900 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+                    className="inline-flex items-center p-2 text-sm font-medium text-center text-gray-500 bg-white rounded-lg hover:bg-gray-100 focus:ring-4 focus:outline-none focus:ring-gray-50 dark:text-gray-400 dark:bg-gray-900 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
                     type="button"
                   >
                     <svg
-                      class="w-4 h-4"
+                      className="w-4 h-4"
                       aria-hidden="true"
                       xmlns="http://www.w3.org/2000/svg"
                       fill="currentColor"
@@ -667,16 +667,16 @@ function Blog() {
                   {/* <!-- Dropdown menu --> */}
                   <div
                     id="dropdownComment4"
-                    class="hidden z-10 w-36 bg-white rounded divide-y divide-gray-100 shadow dark:bg-gray-700 dark:divide-gray-600"
+                    className="hidden z-10 w-36 bg-white rounded divide-y divide-gray-100 shadow dark:bg-gray-700 dark:divide-gray-600"
                   >
                     <ul
-                      class="py-1 text-sm text-gray-700 dark:text-gray-200"
+                      className="py-1 text-sm text-gray-700 dark:text-gray-200"
                       aria-labelledby="dropdownMenuIconHorizontalButton"
                     >
                       <li>
                         <a
                           href="#"
-                          class="block py-2 px-4 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
+                          className="block py-2 px-4 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
                         >
                           Edit
                         </a>
@@ -684,7 +684,7 @@ function Blog() {
                       <li>
                         <a
                           href="#"
-                          class="block py-2 px-4 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
+                          className="block py-2 px-4 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
                         >
                           Remove
                         </a>
@@ -692,7 +692,7 @@ function Blog() {
                       <li>
                         <a
                           href="#"
-                          class="block py-2 px-4 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
+                          className="block py-2 px-4 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
                         >
                           Report
                         </a>
@@ -705,13 +705,13 @@ function Blog() {
                   development and explored some of the tools to design my Side
                   Projects.
                 </p>
-                <div class="flex items-center mt-4 space-x-4">
+                <div className="flex items-center mt-4 space-x-4">
                   <button
                     type="button"
-                    class="flex items-center font-medium text-sm text-gray-500 hover:underline dark:text-gray-400"
+                    className="flex items-center font-medium text-sm text-gray-500 hover:underline dark:text-gray-400"
                   >
                     <svg
-                      class="mr-1.5 w-3 h-3"
+                      className="mr-1.5 w-3 h-3"
                       aria-hidden="true"
                       xmlns="http://www.w3.org/2000/svg"
                       fill="currentColor"
